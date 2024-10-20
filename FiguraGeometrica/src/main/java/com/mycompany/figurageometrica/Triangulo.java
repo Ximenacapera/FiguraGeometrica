@@ -1,6 +1,4 @@
-
 package com.mycompany.figurageometrica;
-
 
 public class Triangulo extends FiguraGeometrica {
     private double base;
@@ -11,12 +9,12 @@ public class Triangulo extends FiguraGeometrica {
         this.base = base;
         this.altura = altura;
     }
-
+    //Complejidad temporal O(1)
     @Override
     public double obtenerArea() {
         return (base * altura) / 2;
     }
-
+    //Complejidad temporal O(1)
     @Override
     public double obtenerPerimetro() {
         // Suponemos un triángulo equilátero para simplificar

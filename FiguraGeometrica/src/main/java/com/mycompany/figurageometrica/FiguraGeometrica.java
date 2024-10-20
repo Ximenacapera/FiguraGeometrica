@@ -1,7 +1,4 @@
-
-
 package com.mycompany.figurageometrica;
-
 
 public abstract class FiguraGeometrica {
     
@@ -13,7 +10,7 @@ public abstract class FiguraGeometrica {
         this.color = color;
     }
 
-    // Métodos getters y setters
+    //Complejidad temporal O(1)
     public String getNombre() {
         return nombre;
     }
@@ -30,7 +27,6 @@ public abstract class FiguraGeometrica {
         this.color = color;
     }
 
-    // Métodos abstractos
     public abstract double obtenerArea();
     public abstract double obtenerPerimetro();
 }
