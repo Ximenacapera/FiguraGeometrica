@@ -2,8 +2,8 @@ package com.mycompany.figurageometrica;
 
 public abstract class FiguraGeometrica {
     
-    protected String nombre;
-    protected String color;
+    private String nombre;
+    private String color;
 
     public FiguraGeometrica(String nombre, String color) {
         this.nombre = nombre;
